@@ -15,7 +15,6 @@ end
 
 # RailsMentorクラス（設計図）・・・Mentorクラスの継承
 class RailsMentor < Mentor
-  attr_accessor :name
 
   # jobメソッドのオーバーライド
   def job
